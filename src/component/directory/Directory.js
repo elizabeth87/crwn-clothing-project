@@ -11,13 +11,13 @@ class Directory extends React.Component {
             sections : [
                 {
                   title: 'hats',
-                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                  imageUrl: 'https://cdn.shopify.com/s/files/1/2115/3093/files/Pacman_Symbol_All_Black_Streetstyle_Snapback_Baseball_Hat_Cap_1.jpg?v=1502868872',
                   id: 1,
                   linkUrl: 'shop/hats'
                 },
                 {
                   title: 'jackets',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  imageUrl: 'https://i.etsystatic.com/20096887/c/1500/1191/0/428/il/6ad3a5/1887899078/il_340x270.1887899078_3m7j.jpg',
                   id: 2,
                   linkUrl: 'shop/jackets'
                 },

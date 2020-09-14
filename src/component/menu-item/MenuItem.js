@@ -1,13 +1,12 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 import '../menu-item/menu-item.styles.scss'
 
-const MenuItem = ({ title, imageUrl, size }) => (
+const MenuItem = ({ title, imageUrl, size, history }) => (
     //react gives every html element a property called style. 
     //where we can add value
-    <div 
-    className={`${size} menu-item`}
->
+    <div className={`${size} menu-item`} onClick={() => history.push()} >
  <div 
      className='background-image' 
      style={{
@@ -21,4 +20,4 @@ const MenuItem = ({ title, imageUrl, size }) => (
         </div> 
 )
 
-export default MenuItem;
+export default withRouter(MenuItem);
